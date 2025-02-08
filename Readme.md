@@ -10,7 +10,7 @@ Antes de começar, certifique-se de ter os seguintes softwares instalados em seu
 - [Node.js (versão LTS)](https://nodejs.org/)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
-## Guia de Instalação do Docker
+## 🐋 Guia de Instalação do Docker
 - [Windows](https://dev.to/papitofernando/instalando-o-docker-no-windows-10-home-ou-professional-com-wsl-2-26m3)
 - [MacOS](https://docs.docker.com/desktop/setup/install/mac-install/)
 - [Linux Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
