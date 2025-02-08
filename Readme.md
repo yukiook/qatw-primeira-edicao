@@ -16,17 +16,13 @@ Antes de começar, certifique-se de ter os seguintes softwares instalados em seu
 - [Linux Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 
 ## 🚀 Configuração do Ambiente
-1. Clone este repositório:
+1. Faça um Fork do projeto
+2. Clone este repositório:
    ```sh
-   git clone https://github.com/seu-usuario/qa-tech-week.git
-   cd qa-tech-week
+   git clone git@github.com:seu-usuario/qatw-primeira-edicao.git
+   cd qatw-primeira-edicao
    ```
-
-2. Instale as dependências do projeto:
-   ```sh
-   npm install
-   ```
-
+   
 ## 🐳 Subindo o Ambiente com Docker Compose
 O projeto utiliza Docker Compose para gerenciar os serviços necessários para os testes.
 
@@ -62,9 +58,6 @@ O projeto utiliza Docker Compose para gerenciar os serviços necessários para o
    ```sh
    npx playwright test --ui
    ```
-
-## 🤝 Contribuição
-Sinta-se à vontade para abrir issues e pull requests para melhorias no projeto!
 
 ## 📄 Licença
 Este projeto está sob a licença MIT.
