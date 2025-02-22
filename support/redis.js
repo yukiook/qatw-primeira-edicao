@@ -7,7 +7,7 @@ const connection = {
 
 const queueName = 'twoFactorQueue'
 
-const queue = new Queue(queueName, {connection})
+const queue = new Queue(queueName, { connection })
 
 export const getJob = async () => {
     const jobs = await queue.getJobs() // busca todos os jobs
@@ -16,5 +16,5 @@ export const getJob = async () => {
 }
 
 export const cleanJobs = async () => {
-    await queue.obliterate() // limpa a fila
+    await queue.obliterate({ force: true }) // limpa a fila
 }
